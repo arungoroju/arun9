@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
+}
+#nav{
+    border: 2px solid;
+    height: 50px;
+    background-color: rgb(12, 11, 11);;
+    /* background-color:grey; */
+}
+ #sub-nav{
+    border: 2px solid rgb(12, 11, 11);
+     /* height: inherit; */
+    width:68%;
+    margin:auto;
+    margin-bottom: 0px;
+} 
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+/* .nav-down{
+    
+    border: 2px solid;
+    height: 50px;
+    background-color: rgb(12, 11, 11);;
+} */
+.nav{
+    background-color: black;
+}
+body{
+    background-color:black;
+}
+.headline{
+    
+    margin-top: 100px;
+    margin-left: 500px;
+    color: aliceblue;
+    font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.002em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    
+}
+
+h2.text {
+    
+    font-weight: bold;
+    color: transparent; /* Ensure the text itself is invisible */
+    background: linear-gradient(90deg, hsla(29, 93%, 45%, 0.102), white, rgba(255, 255, 255, 0.1));
+    background-size: 60%; /* Extend the gradient for smoother animation */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%; /* Smooth transition across the text */
+    }
+}
+.nav-down-head{
+   margin-left: 0px;
+    /* border: 2px solid; */
+    height: 50px;
+    background-color: rgb(12, 11, 11);;
+    
+}
+.img-c img{
+  margin-top: 30px;
+  height: 565px;
+  width: 950px;
+  margin-left: 215px;
+
+}

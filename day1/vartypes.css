@@ -1,0 +1,18 @@
+/* styles.css */
+
+
+h1 {
+    color: blue;
+    background-color: antiquewhite;
+    height: 300px;
+    width:300px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 23px;
+}
+
+p {
+    color: gray;
+    background-color: aqua;
+}
